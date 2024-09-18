@@ -550,7 +550,7 @@ label {
 }
 
 .slid-bg-1 {
-    background-image: url(assets/img/slider/slider-1.jpg);
+    background-image: url(assets/img/slider/slider-2.jpg);
 }
 
 .slid-bg-2 {
@@ -2514,4 +2514,24 @@ button.submit-btn {
     opacity: .5;
     filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+.media-float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    /*top: 100px;*/
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+    margin-top:18px;
 }
